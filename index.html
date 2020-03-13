@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stijn papier schaar</title>
+</head>
+<body>
+    <div id="player1">
+        <h1>
+            speler 1 kies een optie: 
+        </h1>
+        <button onclick="steen1()">steen</button>
+        <button onclick="papier1()">papier</button>
+        <button onclick="schaar1()">schaar</button><br>
+    </div>
+
+    <div id="player2">
+        <h1>
+            speler 2 kies een optie: 
+        </h1>
+        <button onclick="steen2()">steen</button>
+        <button onclick="papier2()">papier</button>
+        <button onclick="schaar2()">schaar</button>
+    </div>
+    <br>
+    <br>
+    <div id="speel">
+        <button onclick="uitslag()">speel</button>
+        <h1 id="winnaar"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
